@@ -1,0 +1,28 @@
+.formm{
+display: grid;
+justify-content: center;
+width: 200px;
+height: 250px;
+border: 5px solid rgb(218, 141, 113);
+border-radius: 5px;
+}
+
+.informationn{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 50%);
+    font-size: x-large;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(218, 141, 113);
+}
+
+.titlee{
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(221, 127, 92);
+    }
+
+.allCards{
+    display: grid;
+    grid-template-columns: repeat(4, 20%)
+}
